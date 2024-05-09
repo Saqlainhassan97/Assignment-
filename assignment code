@@ -1,0 +1,430 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "6f24d07a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "saqlain hassan!\n",
+      "s\n",
+      "saqlain\n",
+      "saqlain hassan\n",
+      "7\n",
+      "saqlain\n",
+      "SAQLAIN\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Creating Strings:\n",
+    "string = 'saqlain hassan!'\n",
+    "print(string)\n",
+    "# Accessing Characters in Strings:\n",
+    "s = \"saqlain\"\n",
+    "print(s[0])\n",
+    "\n",
+    "# String Slicing:\n",
+    "s = \"saqlain hassan!\"\n",
+    "print(s[0:7]) \n",
+    "\n",
+    "# String Concatenation:\n",
+    "s1 = \"saqlain\"\n",
+    "s2 = \"hassan\"\n",
+    "s3 = s1 + \" \" + s2\n",
+    "print(s3)  \n",
+    "\n",
+    "# Strings Method\n",
+    "\n",
+    "print(len(s1))\n",
+    "print(s1.lower())\n",
+    "print(s1.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "7c433271",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "saqlain hassan!\n",
+      "s\n",
+      "saqlain\n",
+      "saqlain hassan\n",
+      "7\n",
+      "saqlain\n",
+      "SAQLAIN\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Creating Strings:\n",
+    "string = 'saqlain hassan!'\n",
+    "print(string)\n",
+    "# Accessing Characters in Strings:\n",
+    "s = \"saqlain\"\n",
+    "print(s[0])\n",
+    "\n",
+    "# String Slicing:\n",
+    "s = \"saqlain hassan!\"\n",
+    "print(s[0:7]) \n",
+    "\n",
+    "# String Concatenation:\n",
+    "s1 = \"saqlain\"\n",
+    "s2 = \"hassan\"\n",
+    "s3 = s1 + \" \" + s2\n",
+    "print(s3)  \n",
+    "\n",
+    "# Strings Method\n",
+    "\n",
+    "print(len(s1))\n",
+    "print(s1.lower())\n",
+    "print(s1.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0ce87487",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "saqlain hassan!\n",
+      "s\n",
+      "saqlain\n",
+      "saqlain hassan\n",
+      "7\n",
+      "saqlain\n",
+      "SAQLAIN\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Creating Strings:\n",
+    "string = 'saqlain hassan!'\n",
+    "print(string)\n",
+    "# Accessing Characters in Strings:\n",
+    "s = \"saqlain\"\n",
+    "print(s[0])\n",
+    "\n",
+    "# String Slicing:\n",
+    "s = \"saqlain hassan!\"\n",
+    "print(s[0:7]) \n",
+    "\n",
+    "# String Concatenation:\n",
+    "s1 = \"saqlain\"\n",
+    "s2 = \"hassan\"\n",
+    "s3 = s1 + \" \" + s2\n",
+    "print(s3)  \n",
+    "\n",
+    "# Strings Method\n",
+    "\n",
+    "print(len(s1))\n",
+    "print(s1.lower())\n",
+    "print(s1.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "b554feee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "42\n",
+      "3.14\n",
+      "(2+3j)\n",
+      "[1, 2, 3, 4, 5]\n",
+      "(1, 2, 3, 4, 5)\n",
+      "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n",
+      "saqlain hassan\n",
+      "{'name': 'saqlain', 'section': 'cyber4A'}\n",
+      "{1, 2, 3, 4, 5}\n",
+      "True\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Numeric Types:\n",
+    "integer = 42\n",
+    "Float = 3.14\n",
+    "complex = 2 + 3j\n",
+    "print(integer)\n",
+    "print(Float)\n",
+    "print(complex)\n",
+    "\n",
+    "#Sequence Types:\n",
+    "List = [1, 2, 3, 4, 5]\n",
+    "Tuple = (1, 2, 3, 4, 5)\n",
+    "Range = range(0, 10)\n",
+    "print(List)\n",
+    "print(Tuple)\n",
+    "print(list(Range))\n",
+    "\n",
+    "# text type\n",
+    "String = \"saqlain hassan\"\n",
+    "print(String)\n",
+    "\n",
+    "#mapping type\n",
+    "dictionary = {'name': 'saqlain', 'section': 'cyber4A'}\n",
+    "print(dictionary)\n",
+    "\n",
+    "#Set Type:\n",
+    "Set = {1, 2, 3, 4, 5}\n",
+    "print(Set)\n",
+    "\n",
+    "#Boolean type\n",
+    "Booleant = True\n",
+    "Booleanf = False\n",
+    "print(Booleant)\n",
+    "print(Booleanf)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "f9d67591",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "while loop\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "nested loop\n",
+      "1 1\n",
+      "1 2\n",
+      "1 3\n",
+      "2 1\n",
+      "2 2\n",
+      "2 3\n",
+      "3 1\n",
+      "3 2\n",
+      "3 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Loop from 1 to 5\n",
+    "for i in range(1, 6):\n",
+    "    print(i)\n",
+    "    \n",
+    "# While loop\n",
+    "print(\"while loop\")\n",
+    "i = 1\n",
+    "while i <= 5:\n",
+    "    print(i)\n",
+    "    i += 1\n",
+    "    \n",
+    "# Nested loop example\n",
+    "print(\"nested loop\")\n",
+    "for i in range(1, 4):\n",
+    "    for j in range(1, 4):\n",
+    "        print(i, j)\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b412aab6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "if condition\n",
+      "x is greater than 5\n",
+      "if-else condition\n",
+      "x is not greater than 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# If statement example\n",
+    "print(\"if condition\")\n",
+    "\n",
+    "x = 10\n",
+    "\n",
+    "if x > 5:\n",
+    "    print(\"x is greater than 5\")\n",
+    "\n",
+    "# If-else statement example\n",
+    "print (\"if-else condition\")\n",
+    "x = 3\n",
+    "\n",
+    "if x > 5:\n",
+    "    print(\"x is greater than 5\")\n",
+    "else:\n",
+    "    print(\"x is not greater than 5\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "c05e0c76",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "saqlain\n",
+      "Hello, saqlain!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#define function without parameter\n",
+    "def assignment():\n",
+    "     print(\"saqlain\")\n",
+    "assignment()\n",
+    "# Define a function with parameters\n",
+    "def assignment(name):\n",
+    "    print(\"Hello, \" + name + \"!\")\n",
+    "\n",
+    "# Call the function with an argument\n",
+    "assignment(\"saqlain\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3a64bf2d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2 * 10 =  20\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define a function that returns a value\n",
+    "def mul(x, y):\n",
+    "    return x * y\n",
+    "\n",
+    "# Call the function and store the result in a variable\n",
+    "result = mul(2, 10)\n",
+    "print(\"2 * 10 = \", result)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9f8c051b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hey, I'm saqlain and I play football.\n",
+      "ubaid\n",
+      "shaheer\n",
+      "Forward\n",
+      "Forward\n",
+      "Remember to bring snacks tomorrow.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Football Player Class:\n",
+    "class FootballPlayer:\n",
+    "    def __init__(self, name):  \n",
+    "        self.name = name\n",
+    "\n",
+    "    def introduce(self):\n",
+    "        print(\"Hey, I'm\", self.name, \"and I play football.\")\n",
+    "\n",
+    "player1 = FootballPlayer(\"saqlain\")\n",
+    "player1.introduce() \n",
+    "\n",
+    "# Boys' Club Class with Positions:\n",
+    "class BoysClub:\n",
+    "    position = \"Forward\"\n",
+    "\n",
+    "    def __init__(self, member):  \n",
+    "        self.member = member\n",
+    "\n",
+    "boy1 = BoysClub(\"ubaid\")\n",
+    "boy2 = BoysClub(\"shaheer\")\n",
+    "\n",
+    "print(boy1.member)  \n",
+    "print(boy2.member) \n",
+    "print(boy1.position) \n",
+    "print(boy2.position) \n",
+    "\n",
+    "# Secret Notes Class:\n",
+    "class SecretNotes:\n",
+    "    def __init__(self):  \n",
+    "        self.__private_note = \"Remember to bring snacks tomorrow.\"\n",
+    "\n",
+    "    def get_private_note(self):\n",
+    "        return self.__private_note\n",
+    "\n",
+    "notes = SecretNotes()\n",
+    "print(notes.get_private_note())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "88e1ac6d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
