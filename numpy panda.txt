@@ -1,0 +1,67 @@
+[10:09 pm, 09/05/2024] Saqlain Hasan: Libraries Numpy & Pandas
+What’s the difference between a Python list and a NumPy array?
+
+NumPy gives you an enormous range of fast and efficient ways of creating arrays and manipulating numerical data inside them. While a Python list can contain different data types within a single list, all of the elements in a NumPy array should be homogeneous. The mathematical operations that are meant to be performed on arrays would be extremely inefficient if the arrays weren’t homogeneous.
+
+Why use NumPy?
+
+NumPy arrays are faster and more compact than Python lists. An array consumes less memory and is convenient to use. NumPy uses much less memory to store data and it provides a mechanism of specifying the data types. This allows the code to be optimized even further.
+
+import numpy as np
+arr1 = np.array([3, 5, 1, 4, 2])
+print(arr1)
+
+# Functions in NUmpy
+arr = np.zeros(2)
+print(arr)
+arr = np.ones(2)
+print(arr)
+empty_arr = np.empty(2)
+empty_arr[0] = 3.14
+empty_arr[1] = 42.0
+print(empty_arr)
+print(np.sort(arr1))
+a = np.array([1, 2, 3, 4])
+b = np.array([5, 6, 7, 8])
+print(np.concatenate((a, b)))
+[3 5 1 4 2]
+[0. 0.]
+[1. 1.]
+[ 3.14 42.  ]
+[1 2 3 4 5]
+[1 2 3 4 5 6 7 8]
+What kind of data does pandas handle?
+
+When working with tabular data, such as data stored in spreadsheets or databases, pandas is the right tool for you. pandas will help you to explore, clean, and process your data. In pandas, a data table is called a DataFrame.
+
+How do I read and write tabular data?
+
+pandas supports the integration with many file formats or data sources out of the box (csv, excel, sql, json, parquet,…). Importing data from each of these data sources is provided by function with the prefix read_. Similarly, the to_ methods are used to store data.
+
+Why Use Pandas?
+
+Pandas is used for data manipulation and analysis, offering powerful data structures and tools for working with structured data.
+
+1.DataFrame: Pandas provides a DataFrame object, which is a 2-dimensional labeled data structure with columns of potentially different types. It's similar to a spreadsheet or SQL table, making it easy to handle tabular data.
+
+2.Data Cleaning: Pandas offers functions and methods for data cleaning tasks such as handling missing data, removing duplicates, and transforming data into the desired format.
+
+3.Data Manipulation: It allows for easy manipulation of data, including filtering, selecting, grouping, aggregating, merging, and reshaping data.
+
+4.Data Analysis: Pandas provides statistical functions for data analysis, including descriptive statistics, correlation analysis, and time-series analysis.
+
+5.Integration with Other Libraries: Pandas integrates well with other Python libraries such as NumPy, Matplotlib, and scikit-learn, providing a powerful ecosystem for data analysis and machine learning.
+
+Overall, Pandas simplifies the process of working with structured data in Python and is widely used in data science, machine learning, and data analysis projects.
+[10:10 pm, 09/05/2024] Saqlain Hasan: import pandas as pd
+# Creating a DataFrame:
+data = {'Name': ['Babar Azam', 'Shahdab', 'Shaheen Shah'],
+        'Age': [30, 30, 25],
+        "city": ['lahore','lahore','peshawar']}
+df = pd.DataFrame(data)
+print(df)
+df.to_csv("CricketersInfo.csv")
+           Name  Age      city
+0    Babar Azam   30    lahore
+1       Shahdab   30    lahore
+2  Shaheen Shah   25  peshawar
